@@ -1,0 +1,32 @@
+<TestSuite>
+    <RWSProfiles>
+        <Fidelity ThreadPriority="8" SlotSize="50">
+            <CPU>1</CPU>
+
+            <!-- CPUBilinear is overkill -->
+            <!-- CPUHuffman is overkill -->
+
+            <!-- D3DEffect is erroring -->
+            <!-- D3DMesh requires a .x file -->
+
+            <DISK Filename=".\rws-read.bin"
+                FileSize="10000000">1</DISK>
+            <DISK IOKind="write" Filename=".\rws-write.bin"
+                FileSize="10000000">1</DISK>
+
+            <GDI>1</GDI>
+            <GDIPLUS>1</GDIPLUS>
+            <GPUMEMORY>1</GPUMEMORY>
+
+            <!-- no PLAYSOUND since audio is busy -->
+
+            <PAGEFAULT>1</PAGEFAULT>
+
+            <REGKEY>1</REGKEY>
+
+            <SYSTEMMEMORY>1</SYSTEMMEMORY>
+
+            <!-- no WAVE since audio is busy -->
+        </Fidelity>
+    </RWSProfiles>
+</TestSuite>
