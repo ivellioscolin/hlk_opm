@@ -1,1 +1,0 @@
-ShellRunner.exe -x basic -c OPM_Protocol_Test.pro -s 3 -l "s98wtt_u.dll"

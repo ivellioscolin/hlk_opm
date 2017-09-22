@@ -10,6 +10,16 @@ WDK\Display\Display Adapters\Output Protection
 - OPM - HDCP Test (WoW64)
 - OPM - HDCP Protocol Test
 - OPM - HDCP Protocol Test (WoW64)
+- H264 DRM Test 1
+- H264 DRM Test 2
+- H264 DRM Test 3
+- H264 DRM Test 4
+- H264 DRM Test 5
+- HEVC DRM Test 10
+- HEVC DRM Test 6
+- HEVC DRM Test 7
+- HEVC DRM Test 8
+- HEVC DRM Test 9
 
 ## Usage
 Run bat or modify your own version.
